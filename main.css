@@ -35,6 +35,32 @@ header h2 {
     color: #fab005;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 0 black;
     margin: 1em 0 2em 0;
+}nav {
+    color: #000;
+    font-size: 2em;
+    text-shadow: 3px 3px 0 black;
+    letter-spacing: 0.15em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: -0.5em 0 0.5em 2em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #fab005;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #fab005;
+    background-color: #112278;
+    border-radius: 10px;
 }
