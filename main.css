@@ -60,7 +60,18 @@ nav li a, nav li a:visited {
     padding: 0.3em 0.6em;
 }
 nav li a:hover {
-    color: #fab005;
+    color: #f5970a;
     background-color: #112278;
-    border-radius: 10px;
+    border-radius: 50px;
+}
+nav#searchBar {
+    float: right;
+    margin: -3em 2em 0 0;
+    padding: 0;
+    height: 2em;
+}
+img#searchImage {
+    margin: 0;
+    max-width: 75px;
+    vertical-align: middle;
 }
