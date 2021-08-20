@@ -1,0 +1,40 @@
+body {
+    font-size: 75%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    margin: 0;
+    background-color: #0f558a;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+hr {
+    background: linear-gradient(#4d535c, white, #4d535c);
+    height: 15px;
+    margin-top: 0;
+    border-color: black;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 4.0em;
+}
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0;
+    background: #2267ab url(images/City.jpg) center 0px;
+}
+header h1 {
+    font-size: 6em;
+    color: white;
+    text-shadow: 4px 4px 0 black;
+    margin: 0;
+}
+header h2 {
+    color: #fab005;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-shadow: 1px 2px 2px black;
+    margin: 1em 0 2em 0;
+}
