@@ -1,5 +1,6 @@
 body {
     font-size: 75%;
+    color: lightgray;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     margin: 0;
@@ -15,11 +16,7 @@ hr {
     margin-top: 0;
     border-color: black;
 }
-.contentWrapper {
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 0 4.0em;
-}
+
 header {
     padding: 2.5em 0 0.5em;
     margin: 0;
@@ -29,28 +26,30 @@ header h1 {
     font-size: 6em;
     color: white;
     text-shadow: 4px 4px 0 black;
-    margin: 0;
+    margin: 0 0 0 1em;
 }
 header h2 {
     color: #fab005;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     text-shadow: 1px 2px 0 black;
-    margin: 1em 0 2em 0;
+    margin: 1em 0 2em 5em;
 }nav {
-    color: #000;
-    font-size: 2em;
+    color: #fab005;
+    font-size: em;
     text-shadow: 3px 3px 0 black;
     letter-spacing: 0.15em;
     padding: 1.0em 1.0em 0.5em;
     margin: -0.5em 0 0.5em 2em;
 }
 nav ul {
+    color: #fab005;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 nav li {
+    color: #fab005;
     display: inline-block;
     margin: 0;
 }
@@ -66,7 +65,7 @@ nav li a:hover {
 }
 nav#searchBar {
     float: right;
-    margin: -3em 2em 0 0;
+    margin: -6.5em 2em 0 0;
     padding: 0;
     height: 2em;
 }
@@ -74,4 +73,116 @@ img#searchImage {
     margin: 0;
     max-width: 75px;
     vertical-align: middle;
+}
+h1 {
+    color: #fab005;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 black;
+    margin: 0.5em;
+}
+ul {
+    list-style: none;
+}
+ul li a, ul li a:visited {
+    font-size: 2.5em;
+    margin: 1em 1em 1em -0.5em;
+    line-height: 2em;
+    text-decoration: none;
+    color: lightgray;
+    text-shadow: 3px 3px 0 black;
+}
+ul li a:hover {
+    color: #f5970a;
+    background-color: #112278;
+    border-radius: 75px;
+}
+div.categories {
+    position: relative;
+    background-color: rgba(116, 156, 219, 0.4);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em 2em;
+    margin: 2em 2em 2em 10em;
+    border-radius: 10% 0 0 10%;
+    border-right: lightgray solid 10px;
+    width: 400px;
+    height: 480px;
+}
+.categories ul li.subItem a, .categories ul li.subItem a:visited {
+    font-size: 2em;
+    margin: 1em 1em 1em 1.25em;
+}
+
+div.bio {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    background-color: rgba(116, 156, 219, 0.4);
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    vertical-align: middle;
+    margin: 0;
+    border-radius: 0 5% 5% 0;
+    border-left: lightgray solid 10px;
+    width: 750px;
+    height: 460px;
+}
+img#bioPic {
+    float: left;
+    width: 50%;
+    max-width: 200px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 25%;
+    margin: 2em 2em 4em 1em;
+}
+div.logIn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(116, 156, 219, 0.4);
+    padding: 1em;
+    margin: 1.75em 0 0 1em;
+    border-radius: 10% 10% 0 0;
+    border-bottom: lightgray solid 10px;
+    width: 250px;
+    height: 175px;
+}
+button {
+    display: inline-block;
+    margin: 0.5em;
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+button:hover {
+    background-color: #f5970a;
+}
+div.adBox {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: rgba(116, 156, 219, 0.4);
+    padding: 1.5em;
+    margin: 0 0 3em -24em;
+    border-radius: 0 0 10% 10%;
+    border-top: lightgray solid 10px;
+    width: 250px;
+    height: 200px;
+}
+img#adPic {
+    float: center;
+    width: 50%;
+    max-width: 100px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 25%;
+    margin: 0;
 }
