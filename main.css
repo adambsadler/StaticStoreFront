@@ -40,7 +40,7 @@ header h2 {
     text-shadow: 3px 3px 0 black;
     letter-spacing: 0.15em;
     padding: 1.0em 1.0em 0.5em;
-    margin: -0.5em 0 0.5em 2em;
+    margin: -0.5em 0 0.5em 10em;
 }
 nav ul {
     color: #fab005;
@@ -185,4 +185,22 @@ img#adPic {
     border-style: solid;
     border-radius: 25%;
     margin: 0;
+}
+footer {
+    background-color: rgba(116, 156, 219, 0.4);
+    margin: -1em 0 -2em 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 0.75em;
+    height: 70px;
+}
+footer ul#footerStuff {
+    display: inline-block;
+    margin: 0;
+}
+footer ul li {
+    display: inline-block;
 }
